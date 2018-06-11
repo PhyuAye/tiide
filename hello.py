@@ -3,9 +3,9 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route("/")
-def hello():
+def Phyu():
     return "Hello World"
 
-@app.route("/tiide")
+@app.route("/Phyu")
 def tiide():
-    return "Welcome to TIIDE World"
+    return "Welcome to Phyu Phyu Aye"
